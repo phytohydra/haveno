@@ -4,7 +4,9 @@ package haveno.common.app;
 
 import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.spi.ILoggingEvent;
-import static ch.qos.logback.core.pattern.color.ANSIConstants.*;
+import static ch.qos.logback.core.pattern.color.ANSIConstants.BOLD;
+import static ch.qos.logback.core.pattern.color.ANSIConstants.DEFAULT_FG;
+import static ch.qos.logback.core.pattern.color.ANSIConstants.RED_FG;
 import ch.qos.logback.core.pattern.color.ForegroundCompositeConverterBase;
 
 /**
